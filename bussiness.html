@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+</head>
+<style>
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    height: 100hv;
+    align-items: center;
+    
+}
+        .container{
+            width: 350px;
+            height: 450px; 
+            /* background-color: aqua; */
+            border: 1px solid;
+            border-radius: 5px;
+            transition:width 2s ease-in 1s,height 3s ease-out 1s;
+            /* background-color: aquamarine; */
+            padding: 15px;
+            text-align: center;
+            margin-top: 100px;
+
+        }
+        .container:hover{
+            /* background-color: lightcoral; 
+            /* width: 300px;
+            height: 200px; */
+            /* transform:translate(45deg); */
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px;
+        }
+        /* p{
+            text-align: center;  
+        } */
+        button{
+            width: 60px;
+            background-color: blue;
+            color: aliceblue;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 1px;
+        }
+        button:hover{
+            background-color: darkblue;
+            cursor: pointer;
+        } 
+        .dhoni{
+            width:150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+
+        }
+        .details p a{ 
+    text-decoration: none; 
+    color: rgb(88, 86, 86); 
+    margin-bottom: 40px; 
+}
+    
+        
+</style>
+<body>
+    <div class="container">
+        <img src="SAVE_20251020_133303.jpg" class="dhoni" alt="dhoni">
+    <div>
+        <h1 style="text-align: center;">Adithya</h1>
+        <p>Undergraduate</p>
+    </div>
+   <div class="details"> 
+    
+        <p><a href="mailto:adhithyaamaragonda98@gmail.com">📧adhithyaamaragonda98@gmail.com</a></p>  
+        <p><a href="tel:+919951292061">📞 +919542453824</a></p> 
+         <p><a href="https://maps.google.com">📍India</a></p> 
+        </div>
+    <a href="https://www.bing.com/ck/a?!&&p=14bedc5ca560c28f4c8eca98e8054025b286b722eb415b037be54467f966bd25JmltdHM9MTc3MDA3NjgwMA&ptn=3&ver=2&hsh=4&fclid=15b9bf0a-4aa0-61eb-0f63-a9e74b126093&psq=linkedin&u=a1aHR0cHM6Ly9pbi5saW5rZWRpbi5jb20v"><button>Linkdin</button></a>
+    <a href="https://www.bing.com/ck/a?!&&p=98e88db685229ba8bd6654d1c48a69faf974a4eeb0b876f7f5d2a75a21bc5c83JmltdHM9MTc3MDA3NjgwMA&ptn=3&ver=2&hsh=4&fclid=15b9bf0a-4aa0-61eb-0f63-a9e74b126093&psq=githhub&u=a1aHR0cHM6Ly9naXRodWIuY29tLw"><button>Github</button></a>
+    <a href="https://www.bing.com/ck/a?!&&p=f13f7c4843aeba050cc0962ffa95a90210a99d9d23b7c7bdce7f903a2fffb3cbJmltdHM9MTc3MDA3NjgwMA&ptn=3&ver=2&hsh=4&fclid=15b9bf0a-4aa0-61eb-0f63-a9e74b126093&psq=hackerrank&u=a1aHR0cHM6Ly93d3cuaGFja2VycmFuay5jb20v"><button>Hacker</button></a>
+
+    </div>
+    
+
+
+</body>
+</html>
